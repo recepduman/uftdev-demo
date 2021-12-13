@@ -1,0 +1,588 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2021-11-19 09:39:40</RunStartTime>
+        <Timezone>Turkey Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>UFT Developer Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2021-11-19 09:39:40</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration><![CDATA[00:00:08.525]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName>TR01MARN5370</HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>8007</TotalMemory>
+                <Locale><![CDATA[tr-TR]]></Locale>
+                <Timezone>Turkey Standard Time</Timezone>
+                <User>rduman</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>UFT Developer</ToolName>
+            <ToolVersion><![CDATA[15.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[Desktop.launchAut]]></Name>
+                <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe</td></tr></table>]]></Description>
+                <StartTime>2021-11-19 09:39:41</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.000]]></Duration>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path/>
+                            <Operation/>
+                            <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe</td></tr></table>]]></OperationData>
+                            <Properties/>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>Desktop</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                            <FlowTreeNodeCaption><![CDATA[Desktop.<span class='emphasis'>launchAut</span>]]></FlowTreeNodeCaption>
+                            <FlowTreeNodeTooltip><![CDATA[Desktop.launchAut]]></FlowTreeNodeTooltip>
+                        </CustomUIElements>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[UserName.setText]]></Name>
+                <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>john</td></tr></table>]]></Description>
+                <StartTime>2021-11-19 09:39:41</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:01.890]]></Duration>
+                <Snapshot reference="Resources\Snapshots\b3d1c103-f112-43c7-ae55-7b6b68ab4df7.png">
+                    <reference><![CDATA[Resources\Snapshots\b3d1c103-f112-43c7-ae55-7b6b68ab4df7.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.EditField</Type>
+                                    <Name><![CDATA[UserName]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>setText</Operation>
+                            <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>john</td></tr></table>]]></OperationData>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[agentName]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>EditField</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.EditField</Type>
+                                        <Name><![CDATA[UserName]]></Name>
+                                        <IconKey>EditField</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[Password.setText]]></Name>
+                <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>hp</td></tr></table>]]></Description>
+                <StartTime>2021-11-19 09:39:43</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.319]]></Duration>
+                <Snapshot reference="Resources\Snapshots\251a52fc-f76f-4e48-949b-524768f0deaa.png">
+                    <reference><![CDATA[Resources\Snapshots\251a52fc-f76f-4e48-949b-524768f0deaa.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.EditField</Type>
+                                    <Name><![CDATA[Password]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>setText</Operation>
+                            <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>hp</td></tr></table>]]></OperationData>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[password]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>EditField</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.EditField</Type>
+                                        <Name><![CDATA[Password]]></Name>
+                                        <IconKey>EditField</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[OK.click]]></Name>
+                <Description/>
+                <StartTime>2021-11-19 09:39:43</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.657]]></Duration>
+                <Snapshot reference="Resources\Snapshots\fa3dddd8-625c-4c07-9f6f-e91c4b221f2d.png">
+                    <reference><![CDATA[Resources\Snapshots\fa3dddd8-625c-4c07-9f6f-e91c4b221f2d.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.Button</Type>
+                                    <Name><![CDATA[OK]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>click</Operation>
+                            <OperationData/>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[text]]></Name>
+                                    <Value><![CDATA[OK]]></Value>
+                                </Property>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[okButton]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>Button</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.Button</Type>
+                                        <Name><![CDATA[OK]]></Name>
+                                        <IconKey>Button</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[FIND FLIGHTS.click]]></Name>
+                <Description/>
+                <StartTime>2021-11-19 09:39:44</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.570]]></Duration>
+                <Snapshot reference="Resources\Snapshots\41cd0768-f387-4156-93e8-d09348f701c2.png">
+                    <reference><![CDATA[Resources\Snapshots\41cd0768-f387-4156-93e8-d09348f701c2.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.Button</Type>
+                                    <Name><![CDATA[FIND FLIGHTS]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>click</Operation>
+                            <OperationData/>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[text]]></Name>
+                                    <Value><![CDATA[FIND FLIGHTS]]></Value>
+                                </Property>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[FIND FLIGHTS]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>Button</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.Button</Type>
+                                        <Name><![CDATA[FIND FLIGHTS]]></Name>
+                                        <IconKey>Button</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[flightsDataGrid.selectRow]]></Name>
+                <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1</td></tr></table>]]></Description>
+                <StartTime>2021-11-19 09:39:45</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.277]]></Duration>
+                <Snapshot reference="Resources\Snapshots\e72e75e4-b228-4023-9667-4c25ba12632c.png">
+                    <reference><![CDATA[Resources\Snapshots\e72e75e4-b228-4023-9667-4c25ba12632c.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.Table</Type>
+                                    <Name><![CDATA[flightsDataGrid]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>selectRow</Operation>
+                            <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1</td></tr></table>]]></OperationData>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[flightsDataGrid]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>Table</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.Table</Type>
+                                        <Name><![CDATA[flightsDataGrid]]></Name>
+                                        <IconKey>Table</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[SELECT FLIGHT.click]]></Name>
+                <Description/>
+                <StartTime>2021-11-19 09:39:45</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.405]]></Duration>
+                <Snapshot reference="Resources\Snapshots\4c8d72a7-46cd-4ba7-abd8-73618c24d768.png">
+                    <reference><![CDATA[Resources\Snapshots\4c8d72a7-46cd-4ba7-abd8-73618c24d768.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.Button</Type>
+                                    <Name><![CDATA[SELECT FLIGHT]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>click</Operation>
+                            <OperationData/>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[text]]></Name>
+                                    <Value><![CDATA[SELECT FLIGHT]]></Value>
+                                </Property>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[selectFlightBtn]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>Button</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.Button</Type>
+                                        <Name><![CDATA[SELECT FLIGHT]]></Name>
+                                        <IconKey>Button</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[passengerName.setText]]></Name>
+                <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Test</td></tr></table>]]></Description>
+                <StartTime>2021-11-19 09:39:45</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.365]]></Duration>
+                <Snapshot reference="Resources\Snapshots\2deed982-ee9c-4b17-abe9-544290ea130a.png">
+                    <reference><![CDATA[Resources\Snapshots\2deed982-ee9c-4b17-abe9-544290ea130a.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.EditField</Type>
+                                    <Name><![CDATA[passengerName]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>setText</Operation>
+                            <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Test</td></tr></table>]]></OperationData>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[passengerName]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>EditField</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.EditField</Type>
+                                        <Name><![CDATA[passengerName]]></Name>
+                                        <IconKey>EditField</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="Step">
+            <Data>
+                <Name><![CDATA[ORDER.click]]></Name>
+                <Description/>
+                <StartTime>2021-11-19 09:39:46</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.398]]></Duration>
+                <Snapshot reference="Resources\Snapshots\c112861c-d666-408c-93fa-ca9f409fbcb2.png">
+                    <reference><![CDATA[Resources\Snapshots\c112861c-d666-408c-93fa-ca9f409fbcb2.png]]></reference>
+                </Snapshot>
+                <Extension>
+                    <Any>
+                        <TestObject>
+                            <Path>
+                                <Object>
+                                    <Type>WPF.Window</Type>
+                                    <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                </Object>
+                                <Object>
+                                    <Type>WPF.Button</Type>
+                                    <Name><![CDATA[ORDER]]></Name>
+                                </Object>
+                            </Path>
+                            <Operation>click</Operation>
+                            <OperationData/>
+                            <Properties>
+                                <Property>
+                                    <Name><![CDATA[text]]></Name>
+                                    <Value><![CDATA[ORDER]]></Value>
+                                </Property>
+                                <Property>
+                                    <Name><![CDATA[objectName]]></Name>
+                                    <Value><![CDATA[orderBtn]]></Value>
+                                </Property>
+                            </Properties>
+                        </TestObject>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <IconKey>Button</IconKey>
+                        <CustomUIElements>
+                            <DescriptionLabel>Data</DescriptionLabel>
+                        </CustomUIElements>
+                        <ApplicationModel>
+                            <LogicalName>ApplicationModel</LogicalName>
+                            <ClassName><![CDATA[com.uft.ApplicationModel]]></ClassName>
+                            <TestObject>
+                                <Path>
+                                    <Object>
+                                        <Type>WPF.Window</Type>
+                                        <Name><![CDATA[Micro Focus MyFlight Sample Application]]></Name>
+                                        <IconKey>Window</IconKey>
+                                    </Object>
+                                    <Object>
+                                        <Type>WPF.Button</Type>
+                                        <Name><![CDATA[ORDER]]></Name>
+                                        <IconKey>Button</IconKey>
+                                    </Object>
+                                </Path>
+                            </TestObject>
+                        </ApplicationModel>
+                        <HideContextInfo>true</HideContextInfo>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="CustomStep">
+            <Data>
+                <Name>Order</Name>
+                <Description><![CDATA[Order placed successfully! Order 105 completed]]></Description>
+                <StartTime>2021-11-19 09:39:49</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:00.000]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>CustomStep</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                        <StepCustomImagePath><![CDATA[Resources\User\06ca26c4-7289-4b3b-a4d7-872c85252e75.png]]></StepCustomImagePath>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+    </ReportNode>
+</Results>
